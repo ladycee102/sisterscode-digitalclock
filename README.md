@@ -1,1 +1,1 @@
-# Sister Code Digital Clock
+# sisterscode-digitalclock
