@@ -22,7 +22,7 @@ $(document).ready( function() {
         // If hours is greater than 12
           // Convert to 12-hour format
           // Keep track of the meridiem
-           if (hours > 12 && hours < 24){
+           if (hours > 12){
             hours = hours - 12;
             meridiem = "PM";
         }
@@ -31,6 +31,7 @@ $(document).ready( function() {
         // 0 AM and 0 PM should read as 12
        if (hours == 0){
         hours = 12;
+        meridiem = "AM";
 
        }
 
